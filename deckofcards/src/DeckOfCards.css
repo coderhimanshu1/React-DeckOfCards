@@ -17,7 +17,8 @@ html {
   font: bold;
   font-size: 16px;
   padding: 12px;
-  width: 105px;
+  width: 250px;
+  height: 60px;
   border-radius: 6%;
 }
 
