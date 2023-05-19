@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Card from "./Card";
+import "./DeckOfCards.css";
 import axios from "axios";
 
 const DeckOfCards = () => {
@@ -57,10 +58,12 @@ const DeckOfCards = () => {
   ));
 
   return (
-    <div>
+    <div className="DeckOfCards">
       <h3>Deck of Cards Game</h3>
-      <button onClick={triggerDraw}>Add Card</button>
-      <div>{cards}</div>
+      <button onClick={triggerDraw} className="DeckOfCards-btn">
+        Add Card
+      </button>
+      <div className="DeckOfCards-area">{cards}</div>
     </div>
   );
 };
