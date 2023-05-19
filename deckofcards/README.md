@@ -1,4 +1,19 @@
-# Getting Started with Create React App
+# Deck of Cards Game
+
+React App that displays a deck of cards, one card at a time. When the page loads, go to the Deck of Cards API to create a new deck, and show a button on the page that will let you draw a card.
+
+Every time you click the button, a new card is displayed, until there are no cards left in the deck. If you try to draw when there are no cards remaining, an alert message  appears on the screen with the text “no cards remaining!”.
+
+Second button auto draws card when you click on the button, rather than drawing a single card, the page will draw one card every second.
+
+These draws will continue until you press the button again, or until the deck has been exhausted. The button text changed appropriately.
+
+##Practice in Action
+
+
+https://github.com/coderhimanshu1/React-DeckOfCards/assets/87880250/70be8dbd-8f01-42de-99af-5f398e300682
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
